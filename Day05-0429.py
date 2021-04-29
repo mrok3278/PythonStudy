@@ -14,8 +14,7 @@ dicMenu = {
 
 sCategory = random.choice(lCartegory)
 iLen = len(dicMenu[sCategory])
-iRandom = random.randint(0, iLen)
-
+iRandom = random.randint(0, iLen-1) 
 sMenu = dicMenu[sCategory][iRandom]
 
 print("Category = %s Menu = %s" %(sCategory, sMenu))
@@ -26,9 +25,10 @@ while False:
     sCategory = input(sInput)
     
     if sCategory in lCartegory:
-        
-        iRandom = random.randint(0, len(dicMenu[sCategory]))
+        iLen = len(dicMenu[sCategory])
+        iRandom = random.randint(0, iLen-1)
         sMenu = dicMenu[sCategory][iRandom]
+        
         print("Category = %s Menu = %s" %(sCategory, sMenu))
         
     else:
@@ -36,10 +36,72 @@ while False:
         break
 
 
-
+# 집합
 iArray = set([1,1,2,3,3,4,5,6,7,8,9,0])
 print("iArray = ", iArray)
 
 sText = set("hellooo")
 print("sText = ", sText)
+
+s1 = set([1,2,3,4,5,6])
+s2 = set([5,6,7,8])
+print("s1 & s2=", s1 & s2) # 교집합
+print("s1 | s2=", s1 | s2) # 합집합
+print("s1 - s2=", s1 - s2) # 차집합
+
+s1.add(7)
+s1.update([8,9,10])
+print("s1 = ", s1)
+
+s1.remove(10)
+print("s1 remove(10) = ", s1)
+
+print("1 == 1 ", (1 == 1))
+print("1 > 2 ", (1 > 1))
+
+print("""bool("")""", bool(""))
+print("""bool(" ")""", bool(" "))
+print("""bool("1")""", bool("1"))
+
+print("s1", bool(s1))
+s1.clear()
+print("s1 clear", bool(s1))
+
+a = "A"
+print("a == A", bool(a == "A"))
+
+print("NONE", bool(None))
+
+iArray = [1,2,3,4,5,6,7,8,9,10]
+print("iArray", iArray)
+
+iPop = iArray.pop()
+print("iPop=", iPop, "iArray.pop=", iArray)
+
+iArray = [1,2,3,4,5,6,7,8,9,10]
+
+while bool(iArray):
+    print("iArray", iArray)
+    iPop = iArray.pop()
+    
+iCorrect = random.randint(1, 10)
+iAnswer = 0
+
+while True:
+    
+    sAnswer = input("Numer : ")
+    
+    if sAnswer.upper() == "Q":
+        print("Quit")
+        break    
+    
+    iAnswer = int(sAnswer)
+    
+    if iCorrect == iAnswer:
+        print("Collect = ", iCorrect)
+        break
+    elif iCorrect > iAnswer:
+        print("Up")
+    else:
+        print("Down")  
 
