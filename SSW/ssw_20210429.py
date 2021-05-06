@@ -159,12 +159,17 @@ print('-' * 20)
 import random
 correct = random.randint(1, 10)
 while True:
-    answer = int(input('1~10 사이의 값 입력: '))
-    if correct > answer:
+    answer = input('1~10 사이의 값 입력: ')
+
+    # if answer == 'q' or answer == 'Q':
+    if answer in ['q', 'Q']:
+        break
+
+    if correct > int(answer):
         print('Up!')
-    elif correct < answer:
+    elif correct < int(answer):
         print('Down!')
-    elif correct == answer:
+    elif correct == int(answer):
         print('Correct!')
         break
 

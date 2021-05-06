@@ -96,36 +96,38 @@ print(file.read())
 file.close()
 
 
-iDan = int(input("몇단? " ))
-sFileName = "Gugudan_%d.txt" % (iDan)
-file = open(sFileName, "w", encoding="utf-8")
+# iDan = int(input("몇단? " ))
+# sFileName = "Gugudan_%d.txt" % (iDan)
+# file = open(sFileName, "w", encoding="utf-8")
 
-for i in range(1,10,1):
-    file.write("%d * %d = %d\n" %(iDan, i, iDan * i))
-file.close()
+# for i in range(1,10,1):
+#     file.write("%d * %d = %d\n" %(iDan, i, iDan * i))
+# file.close()
 
-file = open(sFileName, "r", encoding="utf-8")
-sText = file.read()
-print(sText)
-file.close()
+# file = open(sFileName, "r", encoding="utf-8")
+# sText = file.read()
+# print(sText)
+# file.close()
 
-
-menu = {
-    '김치찌개': 6000,
-    '떡국': 7000,
-    '햄버거': 5000
+dMenu = {
+    '1. 김치찌개': 6000,
+    '2. 떡국': 7000,
+    '3. 햄버거': 5000
 }
 
-sMenu = input('어떤 음식을 주문할까요? ')
-iQty = input('몇 인분을 드릴까요? ')
-
-iPrice = int(menu[sMenu][0])
+lMenuKey = list(dMenu.keys())
+print(lMenuKey)
+iNum = int(input('어떤 음식을 주문할까요? '))
+sMenu = lMenuKey[iNum-1]
+iQty = int(input('몇 인분을 드릴까요? '))
+iPrice = int(dMenu[sMenu])
 
 file = open("Recepit.txt", "w", encoding="utf-8")
+
 file.write("대신 식당 영수증\n")
 file.write("====================\n")
-file.write("%s %d인분 %d원\n" %(sMenu, iQty, iPrice * iQty))
-file.write("총 %d원" %(iPrice * iQty))
+file.write("%s %d인분 %d원\n" %(sMenu.split(" ")[1], iQty, iPrice))
+file.write("총 %d원\n" %(iPrice * iQty))
 file.write("====================\n")
 file.write("감사합니다\n")
 

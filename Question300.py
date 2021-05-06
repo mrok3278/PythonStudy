@@ -467,3 +467,78 @@ for iLoop, sChar in enumerate(sID):
     
     print("iLoop=", iLoop, " sChar =", sChar)
     
+
+#201 ~ 203
+def printCoin():
+    for iCount, iLoop in enumerate(range(1,101,1), 1):
+        print(iCount, " : BitCoin")
+        
+    return
+
+printCoin()
+
+# 206 ~ 215 SKIP
+
+# 216
+
+def printWithText(*args):
+    sText = ""
+    sValue = ""
+    
+    for sValue in str(args):
+        if sValue.isalpha():
+            sText = "%s%s" % (sText,sValue)
+    
+    print(sText)
+    
+printWithText("A","B","C","E",":D")
+
+# 217
+def getLimitPrice(iPrice, bUp = True):
+    iLimitPrice = int(iPrice * 0.3)
+    
+    if bUp:
+        return iPrice + iLimitPrice
+    else:
+        return iPrice - iLimitPrice
+
+print("3000,D =",getLimitPrice(3000))
+print("3000,U =",getLimitPrice(3000,False))
+
+# 218
+def addMany(*args):
+    iTotal = 0
+    sValue = ""
+    
+    for sValue in str(args):
+        if sValue.isnumeric():
+            print("Numeric value = ", sValue)
+            iTotal += int(sValue)
+    
+    print("iTotal = ", iTotal)
+
+addMany('a','b',1,3,4,5,6)
+
+# 219
+def printValue(sType, iVal1, iVal2):
+    
+    if sType == "+":
+        print("%d + %d = %d" %(iVal1, iVal2, iVal1 + iVal2))
+    elif sType == "-":
+        print("%d - %d = %d" %(iVal1, iVal2, iVal1 - iVal2))
+    elif sType == "*":
+        print("%d * %d = %d" %(iVal1, iVal2, iVal1 * iVal2))
+    elif sType == "/":
+        print("%d / %d = %d" %(iVal1, iVal2, iVal1 / iVal2))
+    else:
+        print("Wrong type")
+    
+    return
+
+printValue("+", 3, 5)
+printValue("-", 3, 5)
+printValue("*", 3, 5)
+printValue("/", 3, 5)
+    
+# 2220
+print("max =",max(2,3,5))
