@@ -3,6 +3,7 @@
 import random
 
 lText = ["one", "two", "three"]
+
 for sText in lText:
     print(sText)
 

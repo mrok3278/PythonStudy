@@ -1,5 +1,7 @@
 # Question300.py
 
+import random
+
 # 1
 print("Hello world")
 
@@ -375,10 +377,93 @@ else:
 
 # 119 ~ 120
 fruit = {"봄" : "딸기", "여름" : "토마토", "가을" : "사과"}
-sInput = input("input: ")
+# sInput = input("input: ")
 
 if sInput in fruit:
     print(fruit.get(sInput))
 else:
     print("No")
 
+# 121
+if random.randint(1, 2) % 2 == 0:
+    sChar = "a"
+else:
+    sChar = "A"
+
+if sChar.islower():
+    print("sChar = ", sChar.upper())
+else:
+     print("sChar = ", sChar.lower())
+     
+# 122
+sGrade = ""
+iScore = 0
+# iScore = int(input("점수를 입력하세요 : "))
+
+if iScore > 100 or iScore < 0:
+    sGrade = None
+elif iScore >= 81:
+    sGrade = "A"
+elif iScore >= 61:
+    sGrade = "B"
+elif iScore >= 41:
+    sGrade = "C"
+elif iScore >= 21:
+    sGrade = "D"
+else:
+    sGrade = "E"
+    
+print("sGrade = ", sGrade)
+
+# 123
+lRate =  {"D":1167, "N":1.096, "E":1268, "Y":171}
+# sPrice = input("금액을 입력하세요. : ")
+sPrice = "200 D"
+iPrice = int(sPrice.split(" ")[0])             
+sType = sPrice.split(" ")[1].upper()
+iRate = lRate[sType]
+print("Rate = %.4f Price = %.4f" %(iRate, iRate * iPrice))
+
+# 124
+iInput = 0
+# iInput = int(input("1: "))
+# iInput = max(iInput, int(input("2: ")))
+# iInput = max(iInput, int(input("3: ")))
+print("Max = ", iInput)
+
+# 125
+dCompany = {"011":"SKT", "016":"KT", "019":"LG", "010":"Other"}
+# sPhone = input("Phone = ")
+sPhone= "010"
+print("Company = ", dCompany.get(sPhone[0:3]))
+
+# 126
+# sInput = input("Postcode: ")
+sInput= "01400"
+sThirdChar = sInput[2:3]
+if sThirdChar in "012":
+    print("강북구")
+elif sThirdChar in "345":
+    print("도봉구")
+else:
+    print("노원구")
+    
+# 127
+sID = "123456-?234567"
+sID = sID.replace("?", str(random.randint(1, 4)))
+sSex = sID.split("-")[1][0:1]
+
+if sSex in  "13":
+    print("남자 =", sID)
+else:
+    print("여자 =", sID)
+
+# 128
+sID = "821010-1635210"
+print("ilen", len(sID))
+for iLoop, sChar in enumerate(sID):
+    if not sChar.isnumeric():
+        continue
+    
+    print("iLoop=", iLoop, " sChar =", sChar)
+    

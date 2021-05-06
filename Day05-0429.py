@@ -89,19 +89,21 @@ iAnswer = 0
 
 while True:
     
+    # a in ['q','Q']
     sAnswer = input("Numer : ")
     
     if sAnswer.upper() == "Q":
         print("Quit")
-        break    
-    
-    iAnswer = int(sAnswer)
-    
-    if iCorrect == iAnswer:
+        break
+        
+    elif iCorrect == int(sAnswer):
         print("Collect = ", iCorrect)
         break
-    elif iCorrect > iAnswer:
+    
+    elif iCorrect > int(sAnswer):
         print("Up")
+        
     else:
-        print("Down")  
+        print("Down")
+    
 
