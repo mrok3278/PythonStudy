@@ -1,6 +1,7 @@
 #Day07-0506.py
 
 from datetime import datetime
+import webbrowser
 
 print(datetime.today().strftime("%Y-%m-%d %H:%M"))
 
@@ -42,9 +43,13 @@ class Car:
         print(f"{self.iSerialNum}, Speed = %d" %(self.iSpeed))
         
     def navigation(self, sFrom, sTo):
-        self.sFrom = sFrom
-        self.sTo = sTo
-    
+        self.sFrom = "천호동+서울특별시+강동구"
+        self.sTo = "굽은다리역+서울특별시"
+
+        url = f"https://www.google.co.kr/maps/dir/{self.sFrom}/{self.sTo}"
+        
+        webbrowser.open(url)
+        
     def setHere(self, sHere):
         
         if self.sTo == sHere:
