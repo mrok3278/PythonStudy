@@ -540,5 +540,49 @@ printValue("-", 3, 5)
 printValue("*", 3, 5)
 printValue("/", 3, 5)
     
-# 2220
+# 220
 print("max =",max(2,3,5))
+
+#221
+printReverse = lambda sText: print(sText[::-1])
+print(printReverse("Hello!Python"))
+
+#222
+def printScore(lScore):
+   print("Total = %d Count = %d AVG = %d" %(sum(lScore), len(lScore), sum(lScore)/len(lScore)))
+
+printScore([80,90,100,70,50])
+
+#223
+def printEven(lNumers):
+    for iNum in lNumers:
+        if iNum != 0 and iNum % 2 == 0:
+            print("Even number =", iNum)
+
+printEven([0,1,2,3,4,5,6,7,8,9,10])
+
+#224
+def printDicKey(dData):
+    for skey in dData.keys():
+        print("sKey=", skey)
+
+dData = {"A": "1",
+         "B": "2",
+         "C": "3",
+         "D": "4",
+         "E": "5"
+         }
+
+printDicKey(dData)
+
+#225
+def printDicValue(dData, sKey):
+    print("Value = ", dData[sKey])
+       
+my_dict = {"10/26" : [100, 130, 100, 100],
+           "10/27" : [10, 12, 10, 11]
+           }
+
+printDicValue(my_dict, "10/26")
+
+

@@ -43,12 +43,12 @@ class Car:
         print(f"{self.iSerialNum}, Speed = %d" %(self.iSpeed))
         
     def navigation(self, sFrom, sTo):
-        self.sFrom = "천호동+서울특별시+강동구"
-        self.sTo = "굽은다리역+서울특별시"
-
-        url = f"https://www.google.co.kr/maps/dir/{self.sFrom}/{self.sTo}"
         
-        webbrowser.open(url)
+        self.sFrom = sFrom
+        self.sTo = sTo
+        sUrl = f"https://www.google.co.kr/maps/dir/{self.sFrom}/{self.sTo}"
+        
+        webbrowser.open(sUrl)
         
     def setHere(self, sHere):
         
@@ -72,7 +72,7 @@ bus1.bell()
 bus1.bell()
 bus1.bell()
 
-bus1.navigation("Seoul","Busan")
+bus1.navigation("천호동+서울특별시+강동구", "굽은다리역+서울특별시")
 
 bus1.setHere("Seoul")
 bus1.setHere("Daegu")
