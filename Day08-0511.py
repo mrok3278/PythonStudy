@@ -57,8 +57,6 @@ for sKey in lKeyword:
     else:
         keywords[sKey] = 1
 
-print(keywords)
-
 wc = wordcloud.WordCloud(
     font_path="C:/Windows/Fonts/malgun.ttf", 
     background_color="#FFFFFF",
