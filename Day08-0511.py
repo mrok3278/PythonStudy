@@ -47,9 +47,13 @@ file.close()
 okt = Okt()
 lKeyword  = okt.nouns(sNews)
 
+lSkipWord = ["라모스", "코리아"]
+
 for sKey in lKeyword:
     
     if len(sKey) <= 1:
+        continue
+    elif(sKey in lSkipWord):
         continue
     
     if keywords.get(sKey):

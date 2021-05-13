@@ -585,4 +585,27 @@ my_dict = {"10/26" : [100, 130, 100, 100],
 
 printDicValue(my_dict, "10/26")
 
+# 226, 227
+def printFiveText(sText, iMinLen):
+    sTemp = ""
+    for iCount, sValue in enumerate(sText,1):
+        sTemp = f"{sTemp}{sValue}"
+        
+        if iCount % iMinLen == 0:
+            print(f"Text = {sTemp}")
+            sTemp = ""
+    
+    if sTemp != "":
+        print(f"Text = {sTemp}")
+
+printFiveText("1234567890", 3)
+
+# 228
+def printMonthSalary(iYearSalary):
+    print("Month salary = %d" %(iYearSalary/12))
+    
+printMonthSalary(120)
+
+# 229 
+# L=200, R=100
 
