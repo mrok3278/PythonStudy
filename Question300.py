@@ -458,15 +458,64 @@ if sSex in  "13":
 else:
     print("여자 =", sID)
 
-# 128
-sID = "821010-1635210"
-print("ilen", len(sID))
+# 128, 130
+sID = "811226-1111111"
+sVK = "234567-892345-"
+
+iSum = 0
+sVChar = ''
+
 for iLoop, sChar in enumerate(sID):
     if not sChar.isnumeric():
         continue
-    
-    print("iLoop=", iLoop, " sChar =", sChar)
-    
+    elif not sVK[iLoop:iLoop+1].isnumeric():
+        continue
+    iSum += int(sChar) * int(sVK[iLoop:iLoop+1])
+
+iSum = 11 - (iSum % 11)
+print("sID =", sID[13:14], "SUM=", iSum)
+
+if int(sID[13:14]) == iSum:
+    print("YES")
+else:
+    print("NO")
+
+# 129
+print("sID[9:2] = ", sID[8:10])
+if int(sID[8:10]) <= 8:
+    print("서울=", sID[8:10])
+else:
+    print("타지역=", sID[8:10])
+
+# 131 ~ 150
+lFruit = ['Apple', 'Orange', 'Melon']
+
+for sValue in lFruit:
+    print("LOWER =", sValue.lower(), "UPPER =", sValue.upper())
+
+for iValue in range(10,31,10):
+    print("iValue =", iValue)
+
+lValue = [10,20,30]
+for iValue in lValue:
+    print("iValue =", iValue)
+    print("-" * 10)
+
+lValue = [100,200,300]
+for iValue in lValue:
+    print("iValue(inc. VAT) =", int(iValue + (iValue * 0.1)))
+
+lValue = ['dog','cat','elephant']
+for sValue in lValue:
+    print(sValue,"=", len(sValue))
+
+lValue = [1,2,3]
+for iValue in lValue:
+    print("3 * %d = %d" %(iValue, 3 * iValue))
+
+lValue = [1,2,3,4]
+for iValue in lValue[::-1]:
+    print("lValue =", iValue)
 
 #201 ~ 203
 def printCoin():
@@ -608,4 +657,6 @@ printMonthSalary(120)
 
 # 229 
 # L=200, R=100
+
+
 
