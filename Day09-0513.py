@@ -68,11 +68,11 @@ if sub_image.mode!='RGBA':
 paste_mask = sub_image.split()[3].point(lambda i: i * TRANSPARENCY / 100)
 main_image.paste(sub_image, (0,0), mask=paste_mask)
 main_image.save(('Resource/watermark.png'))
-main_image.close()
+# main_image.close()
 
 try:
     plt.imshow(main_image)
-    # plt.imshow(img.imread('Resource/travel_wordcloud.png'))
+    plt.imshow(img.imread('Resource/travel_wordcloud.png'))
     plt.axis('off')
     plt.show()
     

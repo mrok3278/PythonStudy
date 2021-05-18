@@ -657,6 +657,10 @@ printMonthSalary(120)
 
 # 229 
 # L=200, R=100
+<<<<<<< HEAD
 
 
 
+=======
+print("123")
+>>>>>>> 243b819854c401ae409acf0eecee355bd0e77737
