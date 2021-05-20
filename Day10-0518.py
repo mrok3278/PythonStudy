@@ -19,11 +19,10 @@ if len(sys.argv) > 1:
     elif "c" in sOption:
         today = datetime.today()
         f.write(calendar.TextCalendar(firstweekday=6).formatmonth(today.year, today.month))
-            
+
     f.close()
     
     f = open(sFile, 'r', encoding='utf-8')
     print("Memo=", f.read())
     f.close()
-
 

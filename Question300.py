@@ -657,10 +657,35 @@ printMonthSalary(120)
 
 # 229 
 # L=200, R=100
-<<<<<<< HEAD
 
+#233
+def makeList(sText):
+    lText = []
+    
+    for sChar in sText:
+        lText.append(sChar.upper())
 
+    print("lText = ", lText)
 
-=======
-print("123")
->>>>>>> 243b819854c401ae409acf0eecee355bd0e77737
+makeList('abcdefg')
+
+# 234
+def printEven2(sText):
+    lText = []
+    iNumber = 0
+    
+    for sChar in sText:
+        iNumber = int(sChar)
+      
+        if bool(iNumber) and iNumber % 2 == 0 :
+            lText.append(str(iNumber))
+
+    print("lText = ", lText)
+
+# 235
+def convertInt(sText):
+    i = int(float(sText.replace(',','')))
+    print("sText =", i)
+
+convertInt('123,456,789.1234')
+
