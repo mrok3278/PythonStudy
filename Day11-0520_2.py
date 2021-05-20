@@ -20,4 +20,5 @@ for ul in uls:
         year = ul.select_one(f"li:nth-of-type({i}) > span").get_text()
         text = ul.select_one(f"li:nth-of-type({i}) > p").get_text()
         print(year, "=", text)
+        
     print()
