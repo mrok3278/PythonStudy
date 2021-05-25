@@ -168,7 +168,7 @@ print("Text = %s " %("\n".join(sText)))
 
 #69
 sText = "삼성전자/LG전자/Naver"
-print("Spint = %s" %(sText.split('/')))
+print("Split = %s" %(sText.split('/')))
 
 #70
 nData = [2, 4, 3, 1, 5, 10, 9]
@@ -689,3 +689,58 @@ def convertInt(sText):
 
 convertInt('123,456,789.1234')
 
+# 241, 242
+import datetime
+import time
+
+dt = datetime.datetime.now()
+print("type=",type(dt), "dt=", dt)
+
+# 243
+now = datetime.datetime.now()
+for day in range(1, 6, 1):
+    delta = datetime.timedelta(days=day)
+    print("delta = ",type(delta),now - delta)
+    
+# 244
+print("HMS=", datetime.datetime.now().strftime("%H:%M:%S"))
+
+# 245
+print(datetime.datetime.strptime(datetime.datetime.now().strftime("%Y:%m:%d"),"%Y:%m:%d"))
+
+# 246
+iCount = 0
+while True:
+    print("NOW =",datetime.datetime.now().strftime("%Y:%m:%d %H:%M:%S"))
+    
+    iCount +=1
+    if iCount > 1:
+        break
+    
+    time.sleep(1)
+
+# 247
+# Type 1 = import datetime 
+
+# 248
+import os
+
+print("os.getcwd()=", os.getcwd())
+
+
+# 249
+oldFile = "%s/Resource/NewText.txt" %(os.getcwd)()
+newFile = "%s/Resource/NewText2.txt" %(os.getcwd)()
+f = open(oldFile,"w")
+f.close()
+
+os.rename(oldFile, newFile)
+
+import numpy as np
+for i in np.arange(0, 5, 0.1):
+    print(i)
+
+
+
+    
+    
