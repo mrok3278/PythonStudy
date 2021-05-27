@@ -68,4 +68,3 @@ for sLine in sLines:
     a_close.click()
     time.sleep(1)   # 1초 대기
   
-
