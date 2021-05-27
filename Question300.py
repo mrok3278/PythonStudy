@@ -720,7 +720,7 @@ while True:
     time.sleep(1)
 
 # 247
-# Type 1 = import datetime 
+# Type 1 = import datetime1  
 
 # 248
 import os
