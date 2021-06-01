@@ -734,11 +734,12 @@ newFile = "%s/Resource/NewText2.txt" %(os.getcwd)()
 f = open(oldFile,"w")
 f.close()
 
+os.remove(newFile)
 os.rename(oldFile, newFile)
 
 import numpy as np
-for i in np.arange(0, 5, 0.1):
-    print(i)
+for i in np.arange(0.1, 5, 0.1):
+    print("%.1f"%(i))
 
 
 
