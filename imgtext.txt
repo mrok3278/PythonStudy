@@ -1,0 +1,1206 @@
+[OCR] output:
+{
+  "result": [
+    {
+      "boxes": [
+        [
+          10,
+          8
+        ],
+        [
+          512,
+          8
+        ],
+        [
+          512,
+          23
+        ],
+        [
+          10,
+          23
+        ]
+      ],
+      "recognition_words": [
+        "cmd>tesseract \"\uc0ac\uc9c4\uacbd\ub85c\" stdout-I kor \uc785\ub825 \ud6c4\ud14c\uc11c\ub809\ud2b8\uac00 \uc774\ubbf8\uc9c0\uc5d0\uc11c \ubb38\uc790\ub97c"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          515,
+          8
+        ],
+        [
+          684,
+          8
+        ],
+        [
+          684,
+          23
+        ],
+        [
+          515,
+          23
+        ]
+      ],
+      "recognition_words": [
+        "\ubc1b\uc544\uc624\ub294 \uac78 \ud655\uc778 \ud560 \uc218 \uc788\uc74c"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          12,
+          35
+        ],
+        [
+          323,
+          35
+        ],
+        [
+          323,
+          50
+        ],
+        [
+          12,
+          50
+        ]
+      ],
+      "recognition_words": [
+        "\ud55c\uae00\uacfc \uc601\uc5b4\ub97c \uac19\uc774 \uc778\uc2dd\ud558\ub824\uba74 eng+kor\ub85c \uc4f0\uba74 \ub428"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          12,
+          62
+        ],
+        [
+          284,
+          62
+        ],
+        [
+          284,
+          77
+        ],
+        [
+          12,
+          77
+        ]
+      ],
+      "recognition_words": [
+        "\uc5b8\uc5b4 \ub4a4\uc5d0 confiq \uc635\uc158\uc744 \uc801\uc808\ud558\uac8c \uc904\uc218 \uc788\uc74c"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          10,
+          115
+        ],
+        [
+          171,
+          115
+        ],
+        [
+          171,
+          127
+        ],
+        [
+          10,
+          127
+        ]
+      ],
+      "recognition_words": [
+        "OCREngine modes(-oem)"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          138
+        ],
+        [
+          125,
+          138
+        ],
+        [
+          125,
+          148
+        ],
+        [
+          13,
+          148
+        ]
+      ],
+      "recognition_words": [
+        "Q -Legacy engine.onb"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          12,
+          155
+        ],
+        [
+          181,
+          156
+        ],
+        [
+          180,
+          167
+        ],
+        [
+          12,
+          165
+        ]
+      ],
+      "recognition_words": [
+        "1- Neural cets LSTM engine.only"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          174
+        ],
+        [
+          148,
+          174
+        ],
+        [
+          148,
+          186
+        ],
+        [
+          13,
+          186
+        ]
+      ],
+      "recognition_words": [
+        "2-Legacy + LSTM engines"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          193
+        ],
+        [
+          205,
+          193
+        ],
+        [
+          205,
+          205
+        ],
+        [
+          13,
+          205
+        ]
+      ],
+      "recognition_words": [
+        "3-Default.pased on what is avaiable"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          10,
+          234
+        ],
+        [
+          213,
+          234
+        ],
+        [
+          213,
+          246
+        ],
+        [
+          10,
+          246
+        ]
+      ],
+      "recognition_words": [
+        "Page seqmentation mooes(-psm)E"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          255
+        ],
+        [
+          249,
+          255
+        ],
+        [
+          249,
+          266
+        ],
+        [
+          13,
+          266
+        ]
+      ],
+      "recognition_words": [
+        "Q - Orientatien and script detectien osp) enly"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          274
+        ],
+        [
+          235,
+          274
+        ],
+        [
+          235,
+          285
+        ],
+        [
+          13,
+          285
+        ]
+      ],
+      "recognition_words": [
+        "1-Autematic page segmentation with osD"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          12,
+          293
+        ],
+        [
+          292,
+          293
+        ],
+        [
+          292,
+          304
+        ],
+        [
+          12,
+          304
+        ]
+      ],
+      "recognition_words": [
+        "2-Automatic.pagese9mentation,but.no.Osp.or.oCR"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          312
+        ],
+        [
+          273,
+          312
+        ],
+        [
+          273,
+          323
+        ],
+        [
+          13,
+          323
+        ]
+      ],
+      "recognition_words": [
+        "3 - Fully automatic.page.seamentatien,but.no osD"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          278,
+          311
+        ],
+        [
+          323,
+          311
+        ],
+        [
+          323,
+          323
+        ],
+        [
+          278,
+          323
+        ]
+      ],
+      "recognition_words": [
+        "(Default)"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          331
+        ],
+        [
+          270,
+          331
+        ],
+        [
+          270,
+          342
+        ],
+        [
+          13,
+          342
+        ]
+      ],
+      "recognition_words": [
+        "4-Assume.a.single.column.of text.ot.variable.sizes"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          350
+        ],
+        [
+          307,
+          350
+        ],
+        [
+          307,
+          362
+        ],
+        [
+          13,
+          362
+        ]
+      ],
+      "recognition_words": [
+        "5--Assume a single unifom block.of vertically aligned text"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          369
+        ],
+        [
+          221,
+          369
+        ],
+        [
+          221,
+          380
+        ],
+        [
+          13,
+          380
+        ]
+      ],
+      "recognition_words": [
+        "6-Assume.a single. unifom plock.of text"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          388
+        ],
+        [
+          206,
+          388
+        ],
+        [
+          206,
+          399
+        ],
+        [
+          13,
+          399
+        ]
+      ],
+      "recognition_words": [
+        "7-Treat the imege.as a.single text line"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          407
+        ],
+        [
+          193,
+          407
+        ],
+        [
+          193,
+          418
+        ],
+        [
+          13,
+          418
+        ]
+      ],
+      "recognition_words": [
+        "8 - Treat the image.as a single word"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          426
+        ],
+        [
+          242,
+          426
+        ],
+        [
+          242,
+          437
+        ],
+        [
+          13,
+          437
+        ]
+      ],
+      "recognition_words": [
+        "9-Treat the.image.as a.single werd in.a.circle"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          14,
+          445
+        ],
+        [
+          221,
+          445
+        ],
+        [
+          221,
+          456
+        ],
+        [
+          14,
+          456
+        ]
+      ],
+      "recognition_words": [
+        "10- Treat the image asa single character"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          464
+        ],
+        [
+          354,
+          464
+        ],
+        [
+          354,
+          475
+        ],
+        [
+          13,
+          475
+        ]
+      ],
+      "recognition_words": [
+        "11-Sparse. text.Find as.much text.aspossible.in.no particular erder"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          483
+        ],
+        [
+          143,
+          483
+        ],
+        [
+          143,
+          494
+        ],
+        [
+          13,
+          494
+        ]
+      ],
+      "recognition_words": [
+        "12 - Sparse text with oSp"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          502
+        ],
+        [
+          263,
+          502
+        ],
+        [
+          263,
+          512
+        ],
+        [
+          13,
+          512
+        ]
+      ],
+      "recognition_words": [
+        "13 - Raw line. Treat the image asasingle text line"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          265,
+          503
+        ],
+        [
+          481,
+          502
+        ],
+        [
+          481,
+          513
+        ],
+        [
+          266,
+          515
+        ]
+      ],
+      "recognition_words": [
+        "bypassing hacks that are Tesseract-specific"
+      ]
+    }
+  ]
+}
+[OCR] output:
+{
+  "result": [
+    {
+      "boxes": [
+        [
+          10,
+          8
+        ],
+        [
+          512,
+          8
+        ],
+        [
+          512,
+          23
+        ],
+        [
+          10,
+          23
+        ]
+      ],
+      "recognition_words": [
+        "cmd>tesseract \"\uc0ac\uc9c4\uacbd\ub85c\" stdout-I kor \uc785\ub825 \ud6c4\ud14c\uc11c\ub809\ud2b8\uac00 \uc774\ubbf8\uc9c0\uc5d0\uc11c \ubb38\uc790\ub97c"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          515,
+          8
+        ],
+        [
+          684,
+          8
+        ],
+        [
+          684,
+          23
+        ],
+        [
+          515,
+          23
+        ]
+      ],
+      "recognition_words": [
+        "\ubc1b\uc544\uc624\ub294 \uac78 \ud655\uc778 \ud560 \uc218 \uc788\uc74c"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          12,
+          35
+        ],
+        [
+          323,
+          35
+        ],
+        [
+          323,
+          50
+        ],
+        [
+          12,
+          50
+        ]
+      ],
+      "recognition_words": [
+        "\ud55c\uae00\uacfc \uc601\uc5b4\ub97c \uac19\uc774 \uc778\uc2dd\ud558\ub824\uba74 eng+kor\ub85c \uc4f0\uba74 \ub428"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          12,
+          62
+        ],
+        [
+          284,
+          62
+        ],
+        [
+          284,
+          77
+        ],
+        [
+          12,
+          77
+        ]
+      ],
+      "recognition_words": [
+        "\uc5b8\uc5b4 \ub4a4\uc5d0 confiq \uc635\uc158\uc744 \uc801\uc808\ud558\uac8c \uc904\uc218 \uc788\uc74c"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          10,
+          115
+        ],
+        [
+          171,
+          115
+        ],
+        [
+          171,
+          127
+        ],
+        [
+          10,
+          127
+        ]
+      ],
+      "recognition_words": [
+        "OCREngine modes(-oem)"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          138
+        ],
+        [
+          125,
+          138
+        ],
+        [
+          125,
+          148
+        ],
+        [
+          13,
+          148
+        ]
+      ],
+      "recognition_words": [
+        "Q -Legacy engine.onb"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          12,
+          155
+        ],
+        [
+          181,
+          156
+        ],
+        [
+          180,
+          167
+        ],
+        [
+          12,
+          165
+        ]
+      ],
+      "recognition_words": [
+        "1- Neural cets LSTM engine.only"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          174
+        ],
+        [
+          148,
+          174
+        ],
+        [
+          148,
+          186
+        ],
+        [
+          13,
+          186
+        ]
+      ],
+      "recognition_words": [
+        "2-Legacy + LSTM engines"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          193
+        ],
+        [
+          205,
+          193
+        ],
+        [
+          205,
+          205
+        ],
+        [
+          13,
+          205
+        ]
+      ],
+      "recognition_words": [
+        "3-Default.pased on what is avaiable"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          10,
+          234
+        ],
+        [
+          213,
+          234
+        ],
+        [
+          213,
+          246
+        ],
+        [
+          10,
+          246
+        ]
+      ],
+      "recognition_words": [
+        "Page seqmentation mooes(-psm)E"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          255
+        ],
+        [
+          249,
+          255
+        ],
+        [
+          249,
+          266
+        ],
+        [
+          13,
+          266
+        ]
+      ],
+      "recognition_words": [
+        "Q - Orientatien and script detectien osp) enly"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          274
+        ],
+        [
+          235,
+          274
+        ],
+        [
+          235,
+          285
+        ],
+        [
+          13,
+          285
+        ]
+      ],
+      "recognition_words": [
+        "1-Autematic page segmentation with osD"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          12,
+          293
+        ],
+        [
+          292,
+          293
+        ],
+        [
+          292,
+          304
+        ],
+        [
+          12,
+          304
+        ]
+      ],
+      "recognition_words": [
+        "2-Automatic.pagese9mentation,but.no.Osp.or.oCR"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          312
+        ],
+        [
+          273,
+          312
+        ],
+        [
+          273,
+          323
+        ],
+        [
+          13,
+          323
+        ]
+      ],
+      "recognition_words": [
+        "3 - Fully automatic.page.seamentatien,but.no osD"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          278,
+          311
+        ],
+        [
+          323,
+          311
+        ],
+        [
+          323,
+          323
+        ],
+        [
+          278,
+          323
+        ]
+      ],
+      "recognition_words": [
+        "(Default)"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          331
+        ],
+        [
+          270,
+          331
+        ],
+        [
+          270,
+          342
+        ],
+        [
+          13,
+          342
+        ]
+      ],
+      "recognition_words": [
+        "4-Assume.a.single.column.of text.ot.variable.sizes"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          350
+        ],
+        [
+          307,
+          350
+        ],
+        [
+          307,
+          362
+        ],
+        [
+          13,
+          362
+        ]
+      ],
+      "recognition_words": [
+        "5--Assume a single unifom block.of vertically aligned text"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          369
+        ],
+        [
+          221,
+          369
+        ],
+        [
+          221,
+          380
+        ],
+        [
+          13,
+          380
+        ]
+      ],
+      "recognition_words": [
+        "6-Assume.a single. unifom plock.of text"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          388
+        ],
+        [
+          206,
+          388
+        ],
+        [
+          206,
+          399
+        ],
+        [
+          13,
+          399
+        ]
+      ],
+      "recognition_words": [
+        "7-Treat the imege.as a.single text line"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          407
+        ],
+        [
+          193,
+          407
+        ],
+        [
+          193,
+          418
+        ],
+        [
+          13,
+          418
+        ]
+      ],
+      "recognition_words": [
+        "8 - Treat the image.as a single word"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          426
+        ],
+        [
+          242,
+          426
+        ],
+        [
+          242,
+          437
+        ],
+        [
+          13,
+          437
+        ]
+      ],
+      "recognition_words": [
+        "9-Treat the.image.as a.single werd in.a.circle"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          14,
+          445
+        ],
+        [
+          221,
+          445
+        ],
+        [
+          221,
+          456
+        ],
+        [
+          14,
+          456
+        ]
+      ],
+      "recognition_words": [
+        "10- Treat the image asa single character"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          464
+        ],
+        [
+          354,
+          464
+        ],
+        [
+          354,
+          475
+        ],
+        [
+          13,
+          475
+        ]
+      ],
+      "recognition_words": [
+        "11-Sparse. text.Find as.much text.aspossible.in.no particular erder"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          483
+        ],
+        [
+          143,
+          483
+        ],
+        [
+          143,
+          494
+        ],
+        [
+          13,
+          494
+        ]
+      ],
+      "recognition_words": [
+        "12 - Sparse text with oSp"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          13,
+          502
+        ],
+        [
+          263,
+          502
+        ],
+        [
+          263,
+          512
+        ],
+        [
+          13,
+          512
+        ]
+      ],
+      "recognition_words": [
+        "13 - Raw line. Treat the image asasingle text line"
+      ]
+    },
+    {
+      "boxes": [
+        [
+          265,
+          503
+        ],
+        [
+          481,
+          502
+        ],
+        [
+          481,
+          513
+        ],
+        [
+          266,
+          515
+        ]
+      ],
+      "recognition_words": [
+        "bypassing hacks that are Tesseract-specific"
+      ]
+    }
+  ]
+}

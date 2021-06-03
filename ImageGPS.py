@@ -19,13 +19,8 @@ for tag, value in info.items():
 
 exifGPS = taglabel['GPSInfo']
 
-print('exifGPS',exifGPS)
-
 latData = exifGPS[2]
 lonData = exifGPS[4]
-
-print(type(latData),latData)
-print(type(lonData),lonData)
 
 # # 도, 분, 초 계산
 # latDeg = latData[0][0] / float(latData[0][1])

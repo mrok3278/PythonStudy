@@ -519,7 +519,7 @@ for iValue in lValue[::-1]:
 
 #201 ~ 203
 def printCoin():
-    for iCount, iLoop in enumerate(range(1,101,1), 1):
+    for iCount in range(1,11):
         print(iCount, " : BitCoin")
         
     return

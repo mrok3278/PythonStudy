@@ -11,8 +11,8 @@ from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Chrome('Resource/chromedriver.exe')
 
-client_id = Token.client_id
-client_secret = Token.client_secret
+client_id = Token.NAVER_client_id
+client_secret = Token.NAVER_client_secret
 
 # url = "https://openapi.naver.com/v1/vision/face" # 얼굴감지
 url = "https://openapi.naver.com/v1/vision/celebrity" # 유명인 얼굴인식
