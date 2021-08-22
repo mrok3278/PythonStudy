@@ -4,7 +4,7 @@ b = 2
 c = "3"
 d = "4"
 
-print(a + b)  # 3
+print(a + b)  # 4
 print(c + d)  # 34
 # print(a + c)  # 
 # print(a + d)  #
